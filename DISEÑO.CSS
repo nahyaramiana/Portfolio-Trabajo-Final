@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    height: 800px;
+}   
+html {
+    scroll-behavior: smooth;
+}
+#section-1 {
+background-color: black;
+ }
+#section-1 h1{
+text-align: center;
+padding-top: 22%; 
+font-size: 30pt;
+color: white;
+font-family: 'Bitter', serif;
+animation: backInRight;
+animation-duration: 3s;
+
+}
+#section-1 p{
+    text-align: center;
+    font-size: 12pt;
+    color:white;
+    font-family: 'Bitter', serif;
+animation: backInLeft;
+animation-duration: 3s;
+}
+#section-1 button {
+    background-color: transparent;
+    border-color: wheat;
+    border-radius: 9%;
+ font-size: small;
+border-style: inset;
+    color: wheat;
+    font-family:'Bitter', serif;
+    padding: 5pt 5pt;
+    animation: heartBeat;
+    animation-duration: 20s;
+}
+
+#section-2 {
+    background-color:whitesmoke;
+}
+#section-2 a {
+    font-family:'Bitter', serif ;
+    font-size: 12pt;
+}
+#section-2 img{
+    width: 300px;
+    margin-top: 30%;
+    margin-left: 10%;
+    animation:fadeInRightBig;
+    animation-duration: 5s;
+}
+#section-2 p {
+    margin-top: 40%;
+    font-family: 'Bitter', serif;
+    font-size: 15pt;
+ 
+}
